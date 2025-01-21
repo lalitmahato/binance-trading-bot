@@ -6,3 +6,6 @@ up:
 
 down:
 	docker-compose -f docker-compose.server.yml down
+
+down_v:
+	docker-compose -f docker-compose.server.yml down -v
